@@ -10,7 +10,7 @@ h6 {
 
 a {
    cursor: pointer;
-   transition: color 250ms $timing-function;
+   //transition: color 250ms $timing-function;
 }
 
 img {
@@ -24,9 +24,9 @@ ul {
    margin: 0;
 }
 
-body {
-   font-family: $main-font;
-}
+//body {
+//   font-family: $main-font;
+//}
 
 .list {
    list-style: none;
@@ -37,10 +37,10 @@ body {
    font-style: normal;
 }
 
-.active {
-   color: $accent-text-color;
-   position: relative;
-}
+//.active {
+//   color: $accent-text-color;
+//   position: relative;
+//}
 
 .no-scroll {
    overflow: hidden;
