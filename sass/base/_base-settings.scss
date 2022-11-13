@@ -1,0 +1,68 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+}
+
+a {
+   cursor: pointer;
+   transition: color 250ms $timing-function;
+}
+
+img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+
+ul {
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   font-family: $main-font;
+}
+
+.list {
+   list-style: none;
+}
+
+.link {
+   text-decoration: none;
+   font-style: normal;
+}
+
+.active {
+   color: $accent-text-color;
+   position: relative;
+}
+
+.no-scroll {
+   overflow: hidden;
+}
+
+ul,
+ol {
+   margin: 0;
+   padding-left: 0;
+   list-style: none;
+}
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   -webkit-clip-path: inset(100%);
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
