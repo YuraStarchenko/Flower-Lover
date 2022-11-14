@@ -560,4 +560,36 @@ ol {
 .works__btn:hover, .works__btn:focus {
   background-color: #b5cd91;
   box-shadow: 1px 2px 2px rgba(128, 128, 128, 0.8);
+}
+
+.skills {
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 833px;
+  background-image: url("../image/desktop/thanhy-1x.jpg");
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .skills {
+    background-image: url("../image/desktop/thanhy-2x.jpg");
+  }
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 40px 158px;
+  width: 910px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 12px 10px rgba(128, 128, 128, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 0px 90px 90px 0px;
+  transform: matrix(-1, 0, 0, 1, 0, 217);
 }/*# sourceMappingURL=main.css.map */

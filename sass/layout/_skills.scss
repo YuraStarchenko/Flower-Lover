@@ -1,0 +1,33 @@
+.skills {
+   align-items: center;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 833px;
+   background-image: url("../image/desktop/thanhy-1x.jpg");
+      
+   @include retina {
+      background-image: url("../image/desktop/thanhy-2x.jpg");
+   }
+}
+
+.skills-container {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 10px;
+   padding: 40px 158px;
+   width: 910px;
+   height: 400px;
+   background: rgba(255, 255, 255, 0.4);
+   box-shadow: 0px 12px 10px rgba(128, 128, 128, 0.1);
+   backdrop-filter: blur(10px);
+   border-radius: 0px 90px 90px 0px;
+   transform: matrix(-1, 0, 0, 1, 0, 217);
+}
+
+.skills__title {}
+
+.skills__text {}
