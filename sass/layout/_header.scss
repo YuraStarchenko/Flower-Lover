@@ -17,19 +17,16 @@
    display: flex;
    align-items: center;
    padding-top: 24px;
+   justify-content: space-between;
 }
 
-.start__img {}
+//.start__img {
+//}
 
 .start__list {
    display: flex;
-   margin-left: 62px;
    gap: 20px;
    align-items: flex-end;
-}
-
-.start__item {
-
 }
 
 .start__link {
@@ -42,34 +39,85 @@
    gap: 20px;
 }
 
+//.start__contact-list {}
+
+//.start__contact-item {
+
+//}
+
 .start__tel-link {
+   display: flex;
+   align-items: center;
    font-family: 'Montserrat';
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
    line-height: 1.25;
    color: #42444C;
+   gap: 20px;
 }
 
-.start__datalist {
-
-}
-
-.select {
-   overflow: hidden;
-}
-
-.start__input {}
+//.start__tel {}
 
 .order {
-   width: 100%;
-   padding-left: 15px;
-   padding-right: 15px;
-   margin: 0 auto;
+   margin-top: 115px;
+   margin-bottom: 235px;
 }
 
-.order__title {}
+.order-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 24px;
+   padding: 40px 158px;
+   width: 910px;
+   height: 363px;
+   background: rgba(255, 255, 255, 0.4);
+   box-shadow: 12px 12px 10px rgba(128, 128, 128, 0.1);
+   backdrop-filter: blur(10px);
+   border-radius: 0px 90px 90px 0px;
+}
 
-.order__text {}
+.order__title {
+   text-align: center;
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 49px;
+   line-height: 1.22;
+   color: #42444C;
+}
 
-.order__btn {}
+.order__text {
+   text-align: center;
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 1.2;
+   color: #42444C;
+}
+
+.order__btn {
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 1.2;
+   color: #FFFFFF;
+
+   background: #D61F53;
+   border-radius: 45px;
+   padding: 16px 32px;
+   border: none;
+   cursor: pointer;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+   &:hover,
+   &:focus {
+      background-color: #c9013a;
+      box-shadow: 1px 2px 2px rgb(128 128 128 / 80%);
+   }
+}
