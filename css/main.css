@@ -339,22 +339,6 @@ ol {
   width: 70px;
 }
 
-.dropbtn {
-  background: url("/image/icon-flag/ukraine.png") no-repeat left center;
-  padding-left: 25px;
-  width: 30px;
-  height: 30px;
-  border-radius: 20px;
-}
-
-.dropdown-content a:first-child {
-  background: url("../image/icon-flag/ukraine.png") no-repeat left center;
-}
-
-.dropdown-content a:last-child {
-  background: url("../image/icon-flag/usa.png") no-repeat left center;
-}
-
 .dropbtn::after {
   background: rgba(0, 0, 0, 0) url("../image/icon-flag/Polygon.svg") no-repeat scroll center;
   content: "";
