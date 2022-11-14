@@ -372,8 +372,16 @@ ol {
   align-items: center;
   background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 833px;
-  background-image: url("../image/desktop/Frame2-deck-2x.jpg");
+  background-image: url("../image/desktop/Frame2-deck-1x.jpg");
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .start {
+    background-image: url("../image/desktop/Frame2-deck-2x.jpg");
+  }
 }
 
 .container__page {
