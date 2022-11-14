@@ -317,4 +317,62 @@ ol {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.start {
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 833px;
+  background-image: url("/image/desktop/Frame2-deck-1x.jpg");
+}
+
+.container__page {
+  width: 1180px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.start__nav {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.start__list {
+  display: flex;
+  margin-left: 62px;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.start__link {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #42444C;
+  gap: 20px;
+}
+
+.start__tel-link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #42444C;
+}
+
+.select {
+  overflow: hidden;
+}
+
+.order {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
