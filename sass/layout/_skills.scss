@@ -26,13 +26,15 @@
 }
 
 .skills__list {
+   margin-top: 32px;
+   width: 480px;
 }
 
 .skills__item {
    display: flex;
    gap: 44px;
    align-items: center;
-   justify-content: center;
+   margin-bottom: 22px;
 }
 
 .skills__icon {
@@ -40,6 +42,8 @@
 }
 
 .skills__title {
+   text-align: center;
+   margin: 0 30px;
    font-family: 'Montserrat Alternates';
    font-style: normal;
    font-weight: 700;
