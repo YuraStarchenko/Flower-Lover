@@ -593,8 +593,9 @@ ol {
 
 .skills__item {
   display: flex;
-  align-items: center;
   gap: 44px;
+  align-items: center;
+  justify-content: center;
 }
 
 .skills__title {

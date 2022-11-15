@@ -26,17 +26,16 @@
 }
 
 .skills__list {
-   ////display: flex;
-   //align-items: center;
-   //gap: 44px;
 }
 
 .skills__item {
    display: flex;
-   align-items: center;
    gap: 44px;
-   //margin-top: 32px;
-   //margin-bottom: 22px;
+   align-items: center;
+   justify-content: center;
+}
+
+.skills__icon {
 
 }
 
