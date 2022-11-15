@@ -14,10 +14,7 @@
 }
 
 .skills-container {
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   gap: 10px;
+   position: relative;
    padding: 40px 158px;
    width: 910px;
    height: 400px;
@@ -28,6 +25,34 @@
    transform: matrix(-1, 0, 0, 1, 0, 217);
 }
 
-.skills__title {}
+.skills__list {
+}
+.skills__item {
+   display: flex;
+   align-items: center;
+   gap: 44px;
+   margin-top: 32px;
+   margin-bottom: 22px;
 
-.skills__text {}
+}
+
+.skills__title {
+   width: 480px;
+   align-items: flex-end;
+   text-align: center;
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.22;
+   color: #42444C;
+}
+
+.skills__text {
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.25;
+   color: #42444C;
+}
