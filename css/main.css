@@ -563,6 +563,8 @@ ol {
 }
 
 .skills {
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
   background-repeat: no-repeat;
   background-position: center;
@@ -579,7 +581,6 @@ ol {
 }
 
 .skills-container {
-  position: relative;
   padding: 40px 158px;
   width: 910px;
   height: 400px;
@@ -587,8 +588,7 @@ ol {
   box-shadow: 0px 12px 10px rgba(128, 128, 128, 0.1);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
-  border-radius: 0px 90px 90px 0px;
-  transform: matrix(-1, 0, 0, 1, 0, 217);
+  border-radius: 90px 0 0 90px;
 }
 
 .skills__item {
@@ -600,9 +600,6 @@ ol {
 }
 
 .skills__title {
-  width: 480px;
-  align-items: flex-end;
-  text-align: center;
   font-family: "Montserrat Alternates";
   font-style: normal;
   font-weight: 700;
