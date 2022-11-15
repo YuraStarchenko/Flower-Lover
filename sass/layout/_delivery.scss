@@ -19,12 +19,13 @@
 }
 
 .delivery__list {
-   //display: flex;
-   //flex-wrap: wrap;
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
 }
 
 .delivery__item {
-
+gap: 30px;
 }
 
 .delivery__link {

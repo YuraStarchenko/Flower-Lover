@@ -643,6 +643,16 @@ ol {
   color: #42444C;
 }
 
+.delivery__list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.delivery__item {
+  gap: 30px;
+}
+
 .delivery__link {
   align-items: center;
   font-family: "Montserrat Alternates";
