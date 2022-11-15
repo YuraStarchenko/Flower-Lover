@@ -595,8 +595,6 @@ ol {
   display: flex;
   align-items: center;
   gap: 44px;
-  margin-top: 32px;
-  margin-bottom: 22px;
 }
 
 .skills__title {

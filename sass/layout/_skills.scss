@@ -25,12 +25,18 @@
    border-radius: 90px 0 0 90px;
 }
 
+.skills__list {
+   ////display: flex;
+   //align-items: center;
+   //gap: 44px;
+}
+
 .skills__item {
    display: flex;
    align-items: center;
    gap: 44px;
-   margin-top: 32px;
-   margin-bottom: 22px;
+   //margin-top: 32px;
+   //margin-bottom: 22px;
 
 }
 
