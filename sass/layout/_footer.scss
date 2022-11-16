@@ -109,7 +109,7 @@
    border: 1px solid #42444C;
    border-radius: 30px;
    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-   color: #ffffff;
+   color: #42444C;
 }
 
 .btn-icon {
@@ -132,4 +132,11 @@
    transition-duration: 250ms;
    transition-timing-function: $timing-function;
    cursor: pointer;
+
+   &:hover,
+   &:focus {
+      color: #fafafa;
+      background-color: #98a387;
+      box-shadow: 1px 2px 2px rgb(128 128 128 / 80%);
+   }
 }
