@@ -16,20 +16,24 @@
    font-size: 36px;
    line-height: 1.22;
    color: #42444C;
+   padding-bottom: 56px;
 }
 
 .delivery__list {
    display: flex;
-   justify-content: flex-start;
    flex-wrap: wrap;
+   justify-content: center;
+   row-gap: 64px;
+   column-gap: 220px;
 }
 
 .delivery__item {
-gap: 30px;
+   width: 380px;
 }
 
 .delivery__link {
-   align-items: center;
+   margin-right: 54px;
+   //align-items: center;
    font-family: 'Montserrat Alternates';
    font-style: normal;
    font-weight: 400;
@@ -39,5 +43,5 @@ gap: 30px;
 }
 
 .delivery__icon {
-align-items: center;
+   margin-right: 54px;
 }
