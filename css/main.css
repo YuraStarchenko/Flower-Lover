@@ -697,6 +697,16 @@ ol {
   padding-top: 56px;
 }
 
+.feedback__list {
+  display: flex;
+}
+
+.feedback__img {
+  border-radius: 50%;
+  width: 132px;
+  height: 132px;
+}
+
 .feedback__text {
   font-family: "Montserrat Alternates";
   font-style: normal;
