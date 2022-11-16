@@ -628,6 +628,8 @@ ol {
 }
 
 .delivery-container {
+  width: 1440px;
+  height: 272px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -655,18 +657,19 @@ ol {
 
 .delivery__item {
   width: 380px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
 }
 
 .delivery__link {
-  margin-right: 54px;
+  align-items: center;
   font-family: "Montserrat Alternates";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
   color: #42444C;
-}
-
-.delivery__icon {
-  margin-right: 54px;
 }/*# sourceMappingURL=main.css.map */

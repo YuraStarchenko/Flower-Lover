@@ -3,6 +3,8 @@
 }
 
 .delivery-container {
+   width: 1440px;
+   height: 272px;
    padding-left: 15px;
    padding-right: 15px;
    margin: 0 auto;
@@ -29,11 +31,16 @@
 
 .delivery__item {
    width: 380px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 0px;
+   //gap: 54px;
 }
 
 .delivery__link {
-   margin-right: 54px;
-   //align-items: center;
+   align-items: center;
    font-family: 'Montserrat Alternates';
    font-style: normal;
    font-weight: 400;
@@ -43,5 +50,5 @@
 }
 
 .delivery__icon {
-   margin-right: 54px;
+
 }
