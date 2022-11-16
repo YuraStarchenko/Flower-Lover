@@ -274,12 +274,6 @@ a {
   cursor: pointer;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 ul {
   padding: 0;
   margin: 0;
@@ -519,6 +513,10 @@ ol {
 .works__item {
   align-items: center;
   text-align: center;
+}
+
+.works__img {
+  border-radius: 35px;
 }
 
 .works__text {
