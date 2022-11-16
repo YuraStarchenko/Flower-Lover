@@ -279,6 +279,10 @@ ul {
   margin: 0;
 }
 
+body {
+  font-family: "Montserrat Alternates";
+}
+
 .list {
   list-style: none;
 }
@@ -727,4 +731,132 @@ ol {
   font-size: 16px;
   line-height: 1.25;
   color: #2A3B35;
+}
+
+.footer {
+  padding-bottom: 120px;
+}
+
+.footer-container {
+  display: flex;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.footer-block {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+/* ========== ADDRESS ========== */
+.contacts-list {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.contacts-address-link {
+  font-family: "Montserrat Alternates";
+  font-size: 16px;
+  line-height: 1.25;
+  color: #4a4d57;
+  cursor: pointer;
+}
+.contacts-address-link:hover, .contacts-address-link:focus {
+  color: #585c67;
+}
+
+.contacts-link {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #42444C;
+  cursor: pointer;
+  display: block;
+}
+.contacts-link:hover, .contacts-link:focus {
+  color: #636773;
+}
+
+/* ========== SUBSCRIBE ========== */
+.subscribe {
+  margin-left: 70px;
+}
+
+.subscribe-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #42444C;
+}
+
+.subscribe-list {
+  display: flex;
+  height: 100%;
+  gap: 32px;
+}
+
+/* ========== FOOTER EMAIL ========== */
+.form-email {
+  margin-left: 93px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.email-title {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #42444C;
+}
+
+.email-input {
+  padding: 10px;
+  width: 280px;
+  background-color: inherit;
+  outline: transparent;
+  border: 1px solid #42444C;
+  border-radius: 30px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: #ffffff;
+}
+
+.btn-icon {
+  display: flex;
+  gap: 10px;
+}
+
+.form-send-btn {
+  border: none;
+  min-width: 201px;
+  height: 54px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  background: #B9C7A4;
+  border-radius: 45px;
+  color: #42444C;
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

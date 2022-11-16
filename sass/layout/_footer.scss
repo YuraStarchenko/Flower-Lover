@@ -1,171 +1,135 @@
 .footer {
-   background-color: #2f303a;
-   padding-top: 60px;
-   padding-bottom: 60px;
+   padding-bottom: 120px;
 }
 
-.footer__logo {
-   font-family: "Raleway", sans-serif;
-   font-size: 26px;
-   text-decoration: none;
-   color: $main-color;
-   display: inline-block;
-   padding-bottom: 20px;
+.footer-container {
+   display: flex;
+   width: 1440px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   justify-content: space-evenly;
+   align-items: flex-start
 }
 
-.footer__logo span {
-   color: $accent-text-color;
+.footer-block {
+   display: flex;
+   gap: 24px;
+   flex-direction: column;
 }
 
 /* ========== ADDRESS ========== */
 
-.footer__address-link {
-   display: block;
-   font-size: 14px;
-   line-height: 1.71;
-   letter-spacing: 0.03em;
-   color: #ffffff;
-   cursor: pointer;
-   margin-bottom: 9px;
-   transition-property: background-color, fill;
-   transition-duration: 250ms;
-   transition-timing-function: $timing-function;
-
-   &:hover,
-   &:focus {
-      color: $accent-text-color;
-   }
+.contacts-list {
+   display: flex;
+   gap: 16px;
+   flex-direction: column;
 }
 
-.footer__contacts-link {
-   font-size: 14px;
-   line-height: 1.71;
-   letter-spacing: 0.03em;
-   color: rgba(255, 255, 255, 0.6);
+.contacts-address-link {
+   font-family: 'Montserrat Alternates';
+   font-size: 16px;
+   line-height: 1.25;
+   color: #4a4d57;
    cursor: pointer;
-   display: block;
-   margin-bottom: 9px;
-   transition-property: background-color, fill;
-   transition-duration: 250ms;
-   transition-timing-function: $timing-function;
+
 
    &:hover,
    &:focus {
-      color: $accent-text-color;
-   }
+         color: #585c67;
+      }
+}
+
+.contacts-link {
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.25;
+   color: #42444C;
+   cursor: pointer;
+   display: block;
+
+   &:hover,
+   &:focus {
+         color: #636773;
+      }
 }
 
 /* ========== SUBSCRIBE ========== */
 
-.footer__subscribe {
+.subscribe {
    margin-left: 70px;
 }
 
-.footer__subscribe-title {
-   display: block;
+.subscribe-title {
+   display: flex;
+   justify-content: center;
    margin-bottom: 20px;
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
    font-weight: 700;
-   font-size: 14px;
-   line-height: $leading-lh;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
-   color: $main-color;
+   font-size: 20px;
+   line-height: 1.2;
+   color: #42444C;
 }
 
-.footer__subscribe-list {
+.subscribe-list {
    display: flex;
    height: 100%;
-   gap: 10px;
-   justify-content: center;
-   align-items: center;
-}
-
-.footer__subscribe-link {
-   width: 44px;
-   height: 44px;
-   border-radius: 50%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   color: $main-color;
-   background: rgba(255, 255, 255, 0.1);
-   transition-property: background-color, fill;
-   transition-duration: 250ms;
-   transition-timing-function: $timing-function;
-
-   &:hover,
-   &:focus {
-      background-color: $accent-text-color;
-      fill: $main-color;
-   }
-}
-
-.footer__subscribe-icon {
-   fill: currentColor;
+   gap: 32px;
 }
 
 /* ========== FOOTER EMAIL ========== */
 
-.footer__email {
+.form-email {
    margin-left: 93px;
    display: flex;
    flex-wrap: wrap;
 }
 
-.footer__email-title {
+.email-title {
    display: flex;
    margin-bottom: 20px;
+   justify-content: center;
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
    font-weight: 700;
-   font-size: 14px;
-   line-height: $leading-lh;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
-   color: $main-color;
+   font-size: 20px;
+   line-height: 1.2;
+   color: #42444C;
 }
 
-.footer__btn-icon {
-   display: flex;
-   gap: 12px;
-}
-
-.footer__email-input {
-   padding: 15px 16px;
-   width: 358px;
+.email-input {
+   padding: 10px;
+   width: 280px;
    background-color: inherit;
    outline: transparent;
-   border-radius: 4px;
-   border: 1px solid rgba(255, 255, 255, 0.3);
+   border: 1px solid #42444C;
+   border-radius: 30px;
    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-   color: $main-color;
+   color: #ffffff;
 }
 
-.footer__send-btn {
-   gap: 10px;
+.btn-icon {
    display: flex;
-   align-items: center;
-   justify-content: center;
+   gap: 10px;
+}
+
+.form-send-btn {
    border: none;
-   min-width: 200px;
-   height: 50px;
+   min-width: 201px;
+   height: 54px;
+   font-style: normal;
    font-weight: 700;
-   font-size: 16px;
-   line-height: 1.88;
-   text-align: center;
-   letter-spacing: 0.06em;
-   background-color: $accent-text-color;
-   border-radius: 4px;
-   color: #ffffff;
+   font-size: 20px;
+   line-height: 1.2;
+   background: #B9C7A4;
+   border-radius: 45px;
+   color: #42444C;
    transition-property: background-color, fill;
    transition-duration: 250ms;
    transition-timing-function: $timing-function;
    cursor: pointer;
-
-   &:hover {
-      background-color: $accent-active;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-   }
-}
-
-.footer__icon-btn {
-   fill: $main-color;
 }
