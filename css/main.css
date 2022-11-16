@@ -706,6 +706,10 @@ ol {
 }
 
 .feedback__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
   width: 277px;
 }
 
@@ -716,6 +720,7 @@ ol {
 }
 
 .feedback__text {
+  text-align: center;
   font-family: "Montserrat Alternates";
   font-style: normal;
   font-weight: 400;
