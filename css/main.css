@@ -676,6 +676,7 @@ ol {
 }
 
 .feedback-container {
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -699,6 +700,13 @@ ol {
 
 .feedback__list {
   display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  gap: 70px;
+}
+
+.feedback__item {
+  width: 277px;
 }
 
 .feedback__img {
