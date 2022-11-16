@@ -669,4 +669,36 @@ ol {
   font-size: 16px;
   line-height: 1.25;
   color: #42444C;
+}
+
+.feedback {
+  height: 480px;
+  background: #F4F2F2;
+  box-shadow: 10px 12px 10px rgba(128, 128, 128, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.feedback-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.feedback__title {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.22;
+  color: #2A3B35;
+}
+
+.feedback__text {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #2A3B35;
 }/*# sourceMappingURL=main.css.map */
