@@ -1,23 +1,26 @@
 .feedback {
-   height: 480px;
-   background: #F4F2F2;
-   box-shadow: 10px 12px 10px rgba(128, 128, 128, 0.1);
-   backdrop-filter: blur(10px);
+   padding-bottom: 120px;
 }
 
 .feedback-container {
    padding-left: 15px;
    padding-right: 15px;
    margin: 0 auto;
+   background: #F4F2F2;
+   box-shadow: 10px 12px 10px rgba(128, 128, 128, 0.25);
+   backdrop-filter: blur(10px);
+   height: 480px;
 }
 
 .feedback__title {
+   text-align: center;
    font-family: 'Montserrat Alternates';
    font-style: normal;
    font-weight: 700;
    font-size: 36px;
    line-height: 1.22;
    color: #2A3B35;
+   padding-top: 56px;
 }
 
 .feedback__list {}
